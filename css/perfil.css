@@ -11,17 +11,17 @@ a.nav-link {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: rgb(133 1 1);
+    color: rgb(0, 0, 0);
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-    color: rgb(0 0 0);
+    color: rgb(102, 101, 101);
 }
 
 /* ---------------section----------------- */
 
 .cor-section-1 {
-    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(165, 118, 118));
+    background-image: linear-gradient(to right, rgb(255, 255, 255), rgb(151, 151, 151));
 
 }
 
@@ -31,10 +31,16 @@ a.nav-link {
 }
 
 .title-2 {
-    font-size: 50px;
+    font-size: 60px;
+    letter-spacing: 1px;
     font-weight: 600;
-    color: rgb(65, 65, 65);
+    color: rgb(3, 3, 3);
     font-stretch:expanded;
+    font-family: "Courier New, monospace";
+}
+
+.branco {
+    color: rgb(0, 0, 0);
 }
 
 
@@ -62,6 +68,7 @@ a.nav-link {
     padding: 5px 8px 5px 8px;
     text-decoration: none;
     border: none;
+    margin-bottom: 30px;
   }
   
   .btnprincipal:hover {
@@ -69,6 +76,31 @@ a.nav-link {
     text-decoration: none;
     cursor: pointer;
   }
+
+/* Section - 2 */
+.titulo-sobre-1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 50px 0 0 20px;
+    font-size: 17px;
+    letter-spacing: 3px;
+}
+
+.titulo-sobre-2 {
+    font-family: Courier New;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    font-stretch: 10;
+}
+
+.titulo-sobre-3 {
+    padding: 10px;
+}
+
+.alinhamento-decaindo {
+    text-align: center;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
