@@ -151,23 +151,99 @@ a.nav-link {
     background-size: 700px;
 }
 
+/* section 4 */
+
+.area-section-4 {
+    width: 200px;
+    height: 200px;
+}
+
+.cor-section-4 {
+    background: black;
+}
+
+.title-nossos-servicos {
+    font-size: 60px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    font-stretch:expanded;
+    font-family: "Courier New, monospace";
+}
+
+.mdf-leyout-icone {
+    float: left;
+    font-size: 50px;
+    display: block;
+    width: 60px;
+    height: 60px;
+}
+
+.mdf-leyout-title {
+    display: inline-block;
+    height: 60px;
+}
+
+.ml-paragrafo {
+    margin-left: 60px;
+}
+
+.cor-icone-section4 {
+    color: white;
+}
+
+.font-card-title-section4 {
+    color: white;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.cor-p-section4 {
+    color: white;
+}
 
 /* Small devices (landscape phones, 576px and up) */
 @media (max-width: 576px) { 
     .modifica-img-principal {
-        width: 450px;
+        width: 380px;
+    }
+    .title-2 {
+        font-size: 40px;
+    }
+    .lead {
+        font-size: 17px;
+    }
+    .titulo-sobre-2 {
+        font-size: 25px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
+    .title-2 {
+        font-size: 40px;
+    }
+    .lead {
+        font-size: 17px;
+    }
     .modifica-img-principal {
-        width: 510px;
+        width: 500px;
+    }
+    .titulo-sobre-2 {
+        font-size: 30px;
     }
 }
 
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) { 
-
+    .title-2 {
+        font-size: 40px;
+    }
+    .lead {
+        font-size: 17px;
+    }
+    .modifica-img-principal {
+        width: 400px;
+    }
 
 
 
@@ -175,6 +251,15 @@ a.nav-link {
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) { 
+    .title-2 {
+        font-size: 40px;
+    }
+    .lead {
+        font-size: 17px;
+    }
+    .modifica-img-principal {
+        width: 550px;
+    }
 
 }
 
