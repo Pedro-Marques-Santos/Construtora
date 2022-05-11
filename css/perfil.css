@@ -173,15 +173,15 @@ a.nav-link {
 
 .mdf-leyout-icone {
     float: left;
-    font-size: 50px;
+    font-size: 40px;
     display: block;
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
 }
 
 .mdf-leyout-title {
     display: inline-block;
-    height: 60px;
+    height: 55px;
 }
 
 .ml-paragrafo {
@@ -216,6 +216,9 @@ a.nav-link {
     .titulo-sobre-2 {
         font-size: 25px;
     }
+    .title-nossos-servicos {
+        font-size: 40px;
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
@@ -231,6 +234,9 @@ a.nav-link {
     .titulo-sobre-2 {
         font-size: 30px;
     }
+    .title-nossos-servicos {
+        font-size: 40px;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -245,6 +251,9 @@ a.nav-link {
         width: 400px;
     }
 
+    .title-nossos-servicos {
+        font-size: 40px;
+    }
 
 
 }
